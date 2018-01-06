@@ -10,7 +10,9 @@
   "author": "Xunnamius",
   "license": "ISC",
   "scripts": {
-    "test": "echo No tests defined for this project!"
+    "test": "echo No tests defined for this project!",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
   },
   "keywords": [
     "gitlab",
@@ -28,5 +30,8 @@
     "bluebird": "^3.5.1",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "publish-please": "^2.3.1"
   }
 }
