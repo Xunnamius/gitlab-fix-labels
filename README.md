@@ -1,10 +1,10 @@
 [![npm version](https://badge.fury.io/js/gitlab-fix-labels.svg)](https://badge.fury.io/js/gitlab-fix-labels)
 
-# GitLab Fix Labels
+# GITLAB-FIX-LABELS
 
-This tool will delete **ALL** labels from **ALL** visible projects and replace them all in **EVERY project** with your **GLOBAL [GitLab](https://gitlab.com) admin labels**. You can also specify this happen to a specific project rather than every project your token can access.
+This tool will delete **ALL** labels from **ALL** visible projects and replace them all in **EVERY project** with your **GLOBAL [GitLab](https://gitlab.com) admin labels**. You can also specify this happen to a **specific project** rather than every project your token can access.
 
-This was built to [address](https://gitlab.com/gitlab-org/gitlab-ce/issues/834) [these](https://gitlab.com/gitlab-org/gitlab-ce/issues/12707) [issues](https://github.com/clns/gitlab-cli/issues/13) with GitLab.
+This was built to [address](https://gitlab.com/gitlab-org/gitlab-ce/issues/834) these [issues](https://github.com/clns/gitlab-cli/issues/13) with [GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/12707).
 
 Also does children's parties.
 

@@ -1,6 +1,6 @@
 {
   "name": "gitlab-fix-labels",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tool to delete and replace labels from any project (or all of them) with your GLOBAL GitLab admin labels.",
   "repository": {
     "type": "git",
