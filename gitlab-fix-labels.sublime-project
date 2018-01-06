@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"gitlab-fix-labels.sublime-project"
+			],
+			"path": "."
+		}
+	]
+}
