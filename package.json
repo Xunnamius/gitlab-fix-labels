@@ -1,0 +1,32 @@
+{
+  "name": "gitlab-fix-labels",
+  "version": "0.1.0",
+  "description": "A tool to delete and replace labels from any project (or all of them) with your GLOBAL GitLab admin labels.",
+  "repository": {
+    "type": "git",
+    "url": "https://git.xunn.io/package/gitlab-fix-labels"
+  },
+  "main": "lib/gitlab-fix-labels.js",
+  "author": "Xunnamius",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo No tests defined for this project!"
+  },
+  "keywords": [
+    "gitlab",
+    "git",
+    "tool",
+    "labels",
+    "label",
+    "cli",
+    "fix"
+  ],
+  "bin": {
+    "gitlab-fix-labels": "lib/gitlab-fix-labels.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
