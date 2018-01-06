@@ -11,7 +11,7 @@
   "license": "ISC",
   "scripts": {
     "test": "echo No tests defined for this project!",
-    "publish-please": "publish-please",
+    "pp": "publish-please",
     "prepublish": "publish-please guard"
   },
   "keywords": [
