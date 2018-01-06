@@ -11,7 +11,7 @@ Also does children's parties.
 ## Installation
 
 ```shell
-npm install gitlab-fix-labels
+npm install -g gitlab-fix-labels
 ```
 
 ## Usage
