@@ -2,15 +2,6 @@
 ###########
 
 
-# Grunt & Composer #
-###########
-
-
-# Sublime #
-###########
-*.sublime-*
-!*.sublime-project
-
 # Logs and Databases #
 ######################
 *.log
