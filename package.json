@@ -4,7 +4,7 @@
   "description": "A tool to add and/or replace labels from any project (or all of them) with your GLOBAL GitLab admin labels.",
   "repository": {
     "type": "git",
-    "url": "https://git.xunn.io/package/gitlab-fix-labels"
+    "url": "https://github.com/xunnamius/gitlab-fix-labels"
   },
   "main": "lib/gitlab-fix-labels.js",
   "author": "Xunnamius",
