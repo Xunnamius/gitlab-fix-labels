@@ -6,8 +6,6 @@ This tool will help propagate into the repos of your choice those nice shiny new
 
 This was built to [address](https://gitlab.com/gitlab-org/gitlab-ce/issues/834) these [issues](https://github.com/clns/gitlab-cli/issues/13) with [GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/12707).
 
-Also does children's parties.
-
 ## Installation
 
 ```shell
