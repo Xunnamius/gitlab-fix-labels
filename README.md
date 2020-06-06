@@ -70,3 +70,6 @@ Lint and test your code!
 
 * 0.1.x Rapid iteration; initial working release
 * 0.1.4 Implement #1, added action interface to CLI; fixed a few minor bugs
+* 0.2.1 Added new commands, changed interface, added more helpful help text
+* 0.2.2 Fixed per_page bug
+* 0.2.3 Minor changes
