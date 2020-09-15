@@ -13,7 +13,8 @@
     "pp": "publish-please",
     "prepublish": "publish-please guard",
     "publish-please": "publish-please",
-    "prepublishOnly": "publish-please guard"
+    "prepublishOnly": "publish-please guard",
+    "preinstall": ":; test -e ./package-lock.json && npx npm-force-resolutions || true"
   },
   "keywords": [
     "gitlab",
@@ -36,5 +37,8 @@
   },
   "devDependencies": {
     "publish-please": "^5.5.1"
+  },
+  "resolutions": {
+    "lodash": "4.17.19"
   }
 }

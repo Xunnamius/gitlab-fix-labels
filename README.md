@@ -1,10 +1,15 @@
-[![npm version](https://badge.fury.io/js/gitlab-fix-labels.svg)](https://badge.fury.io/js/gitlab-fix-labels)
+[![npm
+version](https://badge.fury.io/js/gitlab-fix-labels.svg)](https://badge.fury.io/js/gitlab-fix-labels)
 
 # GITLAB-FIX-LABELS
 
-This tool will help propagate into the repos of your choice those nice shiny new [GitLab](https://gitlab.com) global admin labels you worked so hard on. See below.
+This tool will help propagate into the repos of your choice those nice shiny new
+[GitLab](https://gitlab.com) global admin labels you worked so hard on. See
+below.
 
-This was built to [address](https://gitlab.com/gitlab-org/gitlab-ce/issues/834) these [issues](https://github.com/clns/gitlab-cli/issues/13) with [GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/12707).
+This was built to [address](https://gitlab.com/gitlab-org/gitlab-ce/issues/834)
+these [issues](https://github.com/clns/gitlab-cli/issues/13) with
+[GitLab](https://gitlab.com/gitlab-org/gitlab-ce/issues/12707).
 
 ## Installation
 
@@ -22,7 +27,8 @@ gitlab-fix-labels GITLAB_API_STARTPOINT_URI YOUR_AUTH_TOKEN YOUR_ACTION YOUR_TAR
 
 Possible actions:
 
-`add` - add your admin labels to your target repo(s); existing labels will not be touched; any duplicates will be skipped.
+`add` - add your admin labels to your target repo(s); existing labels will not
+be touched; any duplicates will be skipped.
 
 `delete` - completely and utterly delete all of a repository's labels.
 
@@ -30,7 +36,8 @@ Possible actions:
 
 Your target:
 
-The target must either be the string `all` (case sensitive) or an integer larger than 0.
+The target must either be the string `all` (case sensitive) or an integer larger
+than 0.
 
 ## Examples
 
@@ -48,13 +55,15 @@ defaults (set in the administrator area of GitLab):
 gitlab-fix-labels GITLAB_API_STARTPOINT_URI YOUR_AUTH_TOKEN replace YOUR_TARGET
 ```
 
-To completely replace the labels on ALL projects with your global admin defaults:
+To completely replace the labels on ALL projects with your global admin
+defaults:
 
 ```shell
 gitlab-fix-labels GITLAB_API_STARTPOINT_URI YOUR_AUTH_TOKEN replace all
 ```
 
-To append your global admin defaults to ALL projects (not deleting existing labels):
+To append your global admin defaults to ALL projects (not deleting existing
+labels):
 
 ```shell
 gitlab-fix-labels GITLAB_API_STARTPOINT_URI YOUR_AUTH_TOKEN add all
