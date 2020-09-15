@@ -10,7 +10,6 @@
   "author": "Xunnamius",
   "license": "ISC",
   "scripts": {
-    "test": "echo No tests defined for this project!",
     "pp": "publish-please",
     "prepublishOnly": "publish-please guard",
     "preinstall": ":; test -e ./package-lock.json && npx npm-force-resolutions || true"
