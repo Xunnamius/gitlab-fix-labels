@@ -1,7 +1,17 @@
-[![npm
-version](https://badge.fury.io/js/gitlab-fix-labels.svg)](https://badge.fury.io/js/gitlab-fix-labels)
+<!-- badges-start -->
 
-# GITLAB-FIX-LABELS
+[![Black Lives Matter!][badge-blm]][link-blm]
+[![!!UNMAINTAINED!!][badge-unmaintained]][link-unmaintained]
+
+<!-- badges-end -->
+
+# ⛔️ DEPRECATED/UNMAINTAINED
+
+> [!CAUTION]
+>
+> This old thing served its purpose dutifully and without complaint, but the
+> time where it was useful has long since passed. GitLab has better label
+> support these days... plus I switched to GitHub 🙃
 
 This tool will help propagate into the repos of your choice those nice shiny new
 [GitLab](https://gitlab.com) global admin labels you worked so hard on. See
@@ -77,8 +87,15 @@ Lint and test your code!
 
 ## Release History
 
-* 0.1.x Rapid iteration; initial working release
-* 0.1.4 Implement #1, added action interface to CLI; fixed a few minor bugs
-* 0.2.1 Added new commands, changed interface, added more helpful help text
-* 0.2.2 Fixed per_page bug
-* 0.2.3 Minor changes
+- 0.1.x Rapid iteration; initial working release
+- 0.1.4 Implement #1, added action interface to CLI; fixed a few minor bugs
+- 0.2.1 Added new commands, changed interface, added more helpful help text
+- 0.2.2 Fixed per_page bug
+- 0.2.3 Minor changes
+
+[badge-blm]: https://xunn.at/badge-blm 'Join the movement!'
+[link-blm]: https://xunn.at/donate-blm
+[badge-unmaintained]:
+  https://xunn.at/badge-unmaintained
+  'Unfortunately, this project is unmaintained (forks welcome!)'
+[link-unmaintained]: https://xunn.at/link-unmaintained
